@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Colors and styling */
+:root{
+  
+  --PrimaryColor: hsl(199, 100%, 33%);
+  --SecondaryColor:hsl(187, 85%, 43%);
+  --gradientColor: linear-gradient(to right, hsl(187,85%, 43%), hsl(199, 100%,33%));
+  --whitecolor:hsl(0, 0%, 100%);
+  --blackcolor:hsl(180, 12%, 93%);
+  --textcolor:hsl(240, 79%, 4%);
+  --whitecolorDeam: hsl(0, 0%,93%);
+  --greyText: rgb(235, 230, 230); 
+  --inputColor:rgb(19, 2, 2);
+  --bodyColor:rgb(9, 9, 123);
+  --cardBG: rgb(225, 225, 235);
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+.section{
+  padding: 4rem 0 2rem;
+}
+.container{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.icons{
+  font-size: 2rem;
+  cursor: pointer;
+}
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  align-items: center;
+}
+
+.btn{
+  padding: 1rem .5rem;
+  background: var(--gradientColor);
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.btn a{
+  color: var(--Whitecolor);
+  font-weight: 500;
+}
+.btn:hover{
+  background: var(--secondarycolor);
+}
+img.video{
+  width: 100%;
+  height: auto;
+
+}
+input{
+  background: var(--bodycolor);
+
+}
+
+
+/* default styling that will apply to all the section*/
+
+/*media queries*/
+
+@media screen and(min-width: 1240px) {
+.container{
+  width: 80% !important;
+  margin: auto !important;
+
+}
+  
+}
